@@ -24,8 +24,8 @@
     <div class="container clearfix">
       <hgroup id="logo">
         <a href="/">
-          <h1>NotQuestions?</h1>
-          <h2>All your questions... Er... Tweets belong to us?</h2>
+          <h1>Not Questions?</h1>
+          <h2>These questions are not actually questions?</h2>
         </a>
       </hgroup>
     </div>
@@ -47,49 +47,12 @@
         {{#tweets}}
           {{>tweet}}
         {{/tweets}}
+
+        <!-- example. See templates/tweet.html for the actual template -->
         <article class="entry clearfix" id="nq_{{twitter_id}}">
           <section class="entry_content">
             <blockquote cite="{{tweet_url}}">
               <p>admin has its own separate config file, for reasons that should make sense to almost no one?</p>
-            </blockquote>
-          </section>
-          <div class="entry_meta">
-            <img src="http://a3.twimg.com/profile_images/543401009/starz_bigger.jpg" alt="{{twitter_username}}" />
-            <a href="http://twitter.com/{{twitter_username}}"><strong>starzonmyarmz</strong></a>
-            <time class="entry_time">1 day ago</time>
-          </div>
-        </article>
-
-        <article class="entry clearfix" id="nq_{{twitter_id}}">
-          <section class="entry_content">
-            <blockquote>
-              <p>Wondering if this is still an issue?</p>
-            </blockquote>
-          </section>
-          <div class="entry_meta">
-            <img src="http://a3.twimg.com/profile_images/543401009/starz_bigger.jpg" alt="{{twitter_username}}" />
-            <a href="http://twitter.com/{{twitter_username}}"><strong>starzonmyarmz</strong></a>
-            <time class="entry_time">1 day ago</time>
-          </div>
-        </article>
-
-        <article class="entry clearfix" id="nq_{{twitter_id}}">
-          <section class="entry_content">
-            <blockquote cite="{{tweet_url}}">
-              <p>admin has its own separate config file, for reasons that should make sense to almost no one?</p>
-            </blockquote>
-          </section>
-          <div class="entry_meta">
-            <img src="http://a3.twimg.com/profile_images/543401009/starz_bigger.jpg" alt="{{twitter_username}}" />
-            <a href="http://twitter.com/{{twitter_username}}"><strong>starzonmyarmz</strong></a>
-            <time class="entry_time">1 day ago</time>
-          </div>
-        </article>
-
-        <article class="entry clearfix" id="nq_{{twitter_id}}">
-          <section class="entry_content">
-            <blockquote>
-              <p>Wondering if this is still an issue?</p>
             </blockquote>
           </section>
           <div class="entry_meta">
@@ -101,36 +64,11 @@
 
       </section>
     </div>
-
-    <section class="pagination">
-      <div class="container clearfix">
-        <ul>
-          <li class="previous">
-            <a href="#">
-              <img src="/images/left.png" alt="previous" />
-              Previous
-            </a>
-          </li>
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">5</a></li>
-          <li class="next">
-            <a href="#">
-              Next
-              <img src="/images/right.png" alt="next" />
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
   </section> <!-- close .main_content -->
 
   <footer>
     <div class="container clearfix">
-      <p class="sosumi">&copy; 2010 <a href="http://cramerdev.com">Cramer Dev</a>. All rights reserved. Not affiliated with <a href="http://twitter.com">Twitter</a>.</p>
+      <p class="sosumi">&copy; 2010 <a href="http://cramerdev.com">Cramer Dev</a>. All rights reserved. Not affiliated with <a href="http://twitter.com">Twitter</a>?</p>
       <a class="cramerdev" href="http://cramerdev.com">Another special project by Cramer Dev</a>
     </div>
   </footer> <!-- close footer -->
