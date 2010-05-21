@@ -1,5 +1,150 @@
-<h1>Not Questions</h1>
+<!DOCTYPE html>
 
-{{#tweets}}
-  {{>tweet}}
-{{/tweets}}
+<html>
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<title>NotQuestions?</title>
+
+	<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/reset.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/application.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="http://fonts.googleapis.com/css?family=Lobster" />
+
+  <!--[if lt IE9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+
+  <header>
+    <div class="container clearfix">
+      <hgroup id="logo">
+        <a href="/">
+          <h1>NotQuestions?</h1>
+          <h2>All your questions... Er... Tweets belong to us?</h2>
+        </a>
+      </hgroup>
+    </div>
+  </header> <!-- close header -->
+
+  <section class="learn_more">
+    <div class="container clearfix pad_me">
+      <p>We need to figure out what this content should say... then I can style it some more!</p>
+    </div>
+  </section> <!-- close .learn-more -->
+
+  <section class="main_content">
+
+    <div class="container clearfix">
+
+      <a id="learn_more_button" href="#">Learn More</a>
+
+      <section class="tweets">
+        {{#tweets}}
+          {{>tweet}}
+        {{/tweets}}
+        <article class="entry clearfix" id="nq_{{twitter_id}}">
+          <section class="entry_content">
+            <blockquote cite="{{tweet_url}}">
+              <p>admin has its own separate config file, for reasons that should make sense to almost no one?</p>
+            </blockquote>
+          </section>
+          <div class="entry_meta">
+            <img src="http://a3.twimg.com/profile_images/543401009/starz_bigger.jpg" alt="{{twitter_username}}" />
+            <a href="http://twitter.com/{{twitter_username}}"><strong>starzonmyarmz</strong></a>
+            <time class="entry_time">1 day ago</time>
+          </div>
+        </article>
+
+        <article class="entry clearfix" id="nq_{{twitter_id}}">
+          <section class="entry_content">
+            <blockquote>
+              <p>Wondering if this is still an issue?</p>
+            </blockquote>
+          </section>
+          <div class="entry_meta">
+            <img src="http://a3.twimg.com/profile_images/543401009/starz_bigger.jpg" alt="{{twitter_username}}" />
+            <a href="http://twitter.com/{{twitter_username}}"><strong>starzonmyarmz</strong></a>
+            <time class="entry_time">1 day ago</time>
+          </div>
+        </article>
+
+        <article class="entry clearfix" id="nq_{{twitter_id}}">
+          <section class="entry_content">
+            <blockquote cite="{{tweet_url}}">
+              <p>admin has its own separate config file, for reasons that should make sense to almost no one?</p>
+            </blockquote>
+          </section>
+          <div class="entry_meta">
+            <img src="http://a3.twimg.com/profile_images/543401009/starz_bigger.jpg" alt="{{twitter_username}}" />
+            <a href="http://twitter.com/{{twitter_username}}"><strong>starzonmyarmz</strong></a>
+            <time class="entry_time">1 day ago</time>
+          </div>
+        </article>
+
+        <article class="entry clearfix" id="nq_{{twitter_id}}">
+          <section class="entry_content">
+            <blockquote>
+              <p>Wondering if this is still an issue?</p>
+            </blockquote>
+          </section>
+          <div class="entry_meta">
+            <img src="http://a3.twimg.com/profile_images/543401009/starz_bigger.jpg" alt="{{twitter_username}}" />
+            <a href="http://twitter.com/{{twitter_username}}"><strong>starzonmyarmz</strong></a>
+            <time class="entry_time">1 day ago</time>
+          </div>
+        </article>
+
+      </section>
+    </div>
+
+    <section class="pagination">
+      <div class="container clearfix">
+        <ul>
+          <li class="previous">
+            <a href="#">
+              <img src="/images/left.png" alt="previous" />
+              Previous
+            </a>
+          </li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li class="next">
+            <a href="#">
+              Next
+              <img src="/images/right.png" alt="next" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </section> <!-- close .main_content -->
+
+  <footer>
+    <div class="container clearfix">
+      <p class="sosumi">&copy; 2010 <a href="http://cramerdev.com">Cramer Dev</a>. All rights reserved. Not affiliated with <a href="http://twitter.com">Twitter</a>.</p>
+      <a class="cramerdev" href="http://cramerdev.com">Another special project by Cramer Dev</a>
+    </div>
+  </footer> <!-- close footer -->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script>
+    $(".learn_more").hide();
+    $("#learn_more_button").click(function() {
+        $(".learn_more").slideToggle();
+        $(this).toggleClass("less");
+        return false;
+    });
+  </script>
+
+</body>
+
+</html>
