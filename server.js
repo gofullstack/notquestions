@@ -1,3 +1,4 @@
 // notquestions server bootstrap
 require.paths.push("lib");
-require("notquestions").listen(process.env.PORT || 8001);
+require.paths.push("vendor/lib");
+require("notquestions").start(process.env.PORT || 8001);
