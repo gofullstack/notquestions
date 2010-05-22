@@ -7,4 +7,6 @@ jQuery(document).ready(function ($) {
         $(this).toggleClass("less");
         return false;
     });
+
+    $(".entry_time").prettyDate();
 });
