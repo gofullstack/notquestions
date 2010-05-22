@@ -74,7 +74,6 @@ header {
   margin-bottom: 20px;
 }
 
-
 /* Tweets
 ----------------------------------------------------------------------------------------------------*/
 
@@ -198,7 +197,7 @@ footer a {
 
 #learn_more_button {
   background: #ebefe2 url(/images/more.png) 50% 50% no-repeat;
-  display: block;
+  display: none;
   height: 30px;
   outline: none;
   overflow: hidden;

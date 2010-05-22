@@ -47,8 +47,9 @@
         {{#tweets}}
           {{>tweet}}
         {{/tweets}}
-        {{^tweets}}No tweets today?{{/tweets}}
+        {{^tweets}}<p class="none">No tweets today?</p>{{/tweets}}
         <!-- example. See templates/tweet.html for the actual template -->
+        <!--
         <article class="entry clearfix" id="nq_{{twitter_id}}">
           <section class="entry_content">
             <blockquote cite="{{tweet_url}}">
@@ -61,7 +62,7 @@
             <time class="entry_time">1 day ago</time>
           </div>
         </article>
-
+        -->
       </section>
     </div>
   </section> <!-- close .main_content -->
@@ -74,15 +75,7 @@
   </footer> <!-- close footer -->
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-  <script>
-    $(".learn_more").hide();
-    $("#learn_more_button").click(function() {
-        $(".learn_more").slideToggle();
-        $(this).toggleClass("less");
-        return false;
-    });
-  </script>
-
+  <script src="/js/main.js"></script>
 </body>
 
 </html>
