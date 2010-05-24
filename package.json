@@ -1,0 +1,21 @@
+{
+    "name": "notquestions",
+    "description": "Track people who are asking questions?",
+    "version": "0.0.1",
+    "keywords": ["fun", "twitter"],
+    "maintainers": [{ "name": "Nathan L Smith" }],
+    "contributors": [
+        { "name": "Daniel Marino" },
+        { "name": "Nathan L Smith" }
+    ],
+    "bugs": "mailto:support@cramerdev.com",
+    "licenses": [
+        { "type": "MIT",
+          "url": "http://www.opensource.org/licenses/mit-license.php" }
+    ],
+    "repositories": [
+        { "type": "git",
+          "url": "https://github.com/cramerdev/notquestions.git" }
+    ],
+    "dependencies": [{ "node": "0.1.96" }]
+}
