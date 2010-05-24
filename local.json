@@ -1,7 +1,8 @@
 {
+    "limit": 25,
     "twitter": {
         "user": "notquestions",
-        "password": "********",
+        "password": "Oshei?j3",
         "track": ["#notquestions"]
     }
 }
