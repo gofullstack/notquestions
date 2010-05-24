@@ -110,6 +110,7 @@ header {
   background: transparent url(/images/point.png) left 19px no-repeat;
   float: left;
   padding: 11px 0 0 29px;
+  width: 180px;
 }
 
 .entry_meta img {
