@@ -67,14 +67,35 @@ header {
 ----------------------------------------------------------------------------------------------------*/
 
 .learn_more .pad_me {
-  padding: 30px 0 10px;
+  padding: 30px 0 40px;
 }
 
 .learn_more p {
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
-.learn_more blockquote { margin: 0px 20px 20px 20px; }
+.learn_more blockquote {
+  margin-bottom: 20px;
+}
+
+.learn_more blockquote p {
+  background: rgba(0, 0, 0, .1);
+  border: 1px solid rgba(0, 0, 0, .1);
+  font-family: Lobster, georgia, times, serif;
+  font-size: 26px;
+  margin: 0;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.learn_more em {
+  color: #000;
+  font-family: courier;
+  font-style: normal;
+}
+
+
 
 /* Tweets
 ----------------------------------------------------------------------------------------------------*/
