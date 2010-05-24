@@ -1,7 +1,7 @@
 Not Questions?
 ==============
 
-This is a little app that aggregates tweets from Twitter(http://twitter.com/) using its search and streaming APIs.
+This is a little app that aggregates tweets from [Twitter](http://twitter.com/) using its search and streaming APIs.
 
 Requirements
 ------------
@@ -16,7 +16,7 @@ Most of the code has been taken from bits of other projects. This includes:
 * [commonjs-utils](http://github.com/kriszyp/commonjs-utils)
 * [Jack](http://jackjs.org/)
 * [jQuery](http://jquery.com/)
-* [jQuery Prettydate](http://bassistance.de/jquery-plugins/jquery-plugin-prettydate/) ([with a patch](http://anentropic.wordpress.com/2009/06/25/javascript-iso8601-parser-and-pretty-dates/)
+* [jQuery Prettydate](http://bassistance.de/jquery-plugins/jquery-plugin-prettydate/) ([with a patch](http://anentropic.wordpress.com/2009/06/25/javascript-iso8601-parser-and-pretty-dates/))
 * [jsgi-node](http://github.com/kriszyp/jsgi-node)
 * [mustache.js](http://github.com/janl/mustache.js)
 * [node-promise](http://github.com/kriszyp/node-promise)
