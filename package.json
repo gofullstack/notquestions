@@ -22,6 +22,6 @@
         "pintura": "http://github.com/kriszyp/pintura/zipball/v0.2.2",
         "promised-io": "http://github.com/kriszyp/promised-io/zipball/v0.2.1",
         "commonjs-utils": "http://github.com/kriszyp/commonjs-utils/zipball/v0.2.1",
-        "tweetstream": "jar:http://github.com/mikeal/tweetstream/zipball/master!/lib/main.js"
+        "twitter": "jar:http://github.com/technoweenie/twitter-node/zipball/master!/lib/twitter-node/index.js"
     }
 }

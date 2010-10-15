@@ -1,8 +1,4 @@
 {
     "limit": 25,
-    "twitter": {
-        "user": "notquestions",
-        "password": "SOMETHING // NOT YOURS",
-        "track": ["#notquestions"]
-    }
+    "twitter": { "track": ["#notquestions"] }
 }
