@@ -17,5 +17,8 @@
         { "type": "git",
           "url": "https://github.com/cramerdev/notquestions.git" }
     ],
-    "dependencies": [{ "node": "0.1.96" }]
+    "mappings": {
+        "jsgi-node": "jar:http://github.com/kriszyp/jsgi-node/zipball/v0.2.1!/lib/jsgi-node.js",
+        "pintura": "http://github.com/kriszyp/pintura/zipball/v0.2.2"
+    }
 }

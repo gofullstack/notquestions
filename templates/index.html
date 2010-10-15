@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <title>Not Questions?</title>
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/reset.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/application.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="http://fonts.googleapis.com/css?family=Lobster" />
+
+  <!--[if lt IE9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+
+  <header>
+    <div class="container clearfix">
+      <a href="/" id="logo">
+        <div id="firefox_cant_handle_block_level_links_with_new_html5_elements">
+          <hgroup>
+            <h1>NotQuestions?</h1>
+            <h2>The questions are not actually questions?</h2>
+          </hgroup>
+        </div>
+      </a>
+    </div>
+  </header> <!-- close header -->
+
+  <section class="learn_more">
+    <div class="container clearfix pad_me">
+      <p>Ever have friends, clients, or colleagues who use the question mark key on their keyboards <strong>way</strong> too much? It's usually innocent enough:</p>
+      <blockquote>
+        <p>The server is down?</p>
+      </blockquote>
+      <p>Why not make fun of them on the internet? If you use Twitter, tweet the non-question along with a <em>#notquestions</em> hashtag, and you can see it here on this page available for public ridicule.</p>
+    </div>
+  </section> <!-- close .learn-more -->
+
+  <section class="main_content">
+
+    <div class="container clearfix">
+
+      <a id="learn_more_button" href="#">Learn More</a>
+
+      <section class="tweets">
+        {{#tweets}}
+          {{>tweet}}
+        {{/tweets}}
+        {{^tweets}}<p class="none">No tweets today?</p>{{/tweets}}
+        <!-- example. See templates/tweet.html for the actual template -->
+        <!--
+        <article class="entry clearfix" id="nq_{{twitter_id}}">
+          <section class="entry_content">
+            <blockquote cite="{{tweet_url}}">
+              <p>admin has its own separate config file, for reasons that should make sense to almost no one?</p>
+            </blockquote>
+          </section>
+          <div class="entry_meta">
+            <img src="http://a3.twimg.com/profile_images/543401009/starz_bigger.jpg" alt="{{twitter_username}}" />
+            <a href="http://twitter.com/{{twitter_username}}"><strong>starzonmyarmz</strong></a>
+            <time class="entry_time" title="{{time}}">1 day ago</time>
+          </div>
+        </article>
+        -->
+      </section>
+    </div>
+  </section> <!-- close .main_content -->
+
+  <footer>
+    <div class="container clearfix">
+      <p class="sosumi">&copy; 2010 <a href="http://cramerdev.com">Cramer Dev</a>. All rights reserved. Not affiliated with <a href="http://twitter.com">Twitter</a>?</p>
+      <a class="cramerdev" href="http://cramerdev.com">Another special project by Cramer Dev</a>
+    </div>
+  </footer> <!-- close footer -->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script src="/js/jquery/jquery.prettydate.js"></script>
+  <script src="/js/main.js"></script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-685637-20']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+</body>
+<!-- rendered by Node {{version}} -->
+</html>
