@@ -104,7 +104,7 @@ $.prettyDate.messages = {
 $.fn.prettyDate = function(options) {
 	options = $.extend({
 		value: function() {
-			return $(this).attr("title");
+			return $(this).attr("datetime");
 		},
 		interval: 10000
 	}, options);
