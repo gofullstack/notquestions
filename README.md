@@ -7,6 +7,7 @@ Requirements
 ------------
 
 * [Node.js](http://nodejs.org/) 0.2.3
+* [Nodules](http://github.com/kriszyp/nodules) 0.2.1
 
 Contributions
 -------------
