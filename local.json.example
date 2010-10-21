@@ -1,8 +1,6 @@
 {
     "limit": 25,
-    "twitter": {
-        "track": ["#notquestions"],
-        "username": "somebody",
-        "password": "secret"
-    }
+    "track": ["#notquestions"],
+    "username": "somebody",
+    "password": "secret"
 }
